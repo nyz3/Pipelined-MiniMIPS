@@ -535,6 +535,7 @@ end TCL_Generic;&#13;
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="5"/>
+      <a name="label" val="B"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp lib="2" loc="(4180,3050)" name="Multiplexer">
@@ -683,12 +684,14 @@ end TCL_Generic;&#13;
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="5"/>
+      <a name="label" val="Addr"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(4440,2860)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="5"/>
+      <a name="label" val="A"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp lib="1" loc="(4920,1880)" name="AND Gate">
@@ -1033,6 +1036,7 @@ end TCL_Generic;&#13;
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="6"/>
+      <a name="label" val="Ctrl"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp lib="8" loc="(3676,1860)" name="Text">
@@ -1047,6 +1051,7 @@ end TCL_Generic;&#13;
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="32"/>
+      <a name="label" val="Imm"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp lib="2" loc="(4090,2860)" name="Multiplexer">
@@ -1132,6 +1137,7 @@ end TCL_Generic;&#13;
     <comp lib="0" loc="(2760,1480)" name="Pin">
       <a name="facing" val="south"/>
       <a name="width" val="32"/>
+      <a name="label" val="Inst"/>
     </comp>
     <comp lib="2" loc="(4890,2360)" name="Multiplexer">
       <a name="selloc" val="tr"/>
@@ -1237,15 +1243,15 @@ end TCL_Generic;&#13;
     <wire from="(910,230)" to="(920,230)"/>
     <wire from="(860,220)" to="(870,220)"/>
     <wire from="(910,190)" to="(920,190)"/>
-    <wire from="(420,290)" to="(490,290)"/>
     <wire from="(10,710)" to="(330,710)"/>
     <wire from="(610,340)" to="(610,350)"/>
     <wire from="(250,10)" to="(250,330)"/>
-    <wire from="(420,350)" to="(610,350)"/>
     <wire from="(850,480)" to="(970,480)"/>
+    <wire from="(440,290)" to="(490,290)"/>
     <wire from="(780,740)" to="(780,810)"/>
     <wire from="(1310,310)" to="(1370,310)"/>
     <wire from="(1310,550)" to="(1370,550)"/>
+    <wire from="(440,350)" to="(610,350)"/>
     <wire from="(570,850)" to="(1440,850)"/>
     <wire from="(490,30)" to="(490,240)"/>
     <wire from="(1350,460)" to="(1350,590)"/>
@@ -1270,6 +1276,7 @@ end TCL_Generic;&#13;
     <wire from="(1200,310)" to="(1230,310)"/>
     <wire from="(870,40)" to="(870,100)"/>
     <wire from="(920,50)" to="(920,110)"/>
+    <wire from="(320,290)" to="(330,290)"/>
     <wire from="(600,820)" to="(1310,820)"/>
     <wire from="(750,540)" to="(750,730)"/>
     <wire from="(860,100)" to="(860,220)"/>
@@ -1308,12 +1315,10 @@ end TCL_Generic;&#13;
     <wire from="(850,260)" to="(850,370)"/>
     <wire from="(940,190)" to="(960,190)"/>
     <wire from="(1200,550)" to="(1200,800)"/>
-    <wire from="(320,290)" to="(340,290)"/>
     <wire from="(480,330)" to="(500,330)"/>
     <wire from="(930,240)" to="(930,720)"/>
     <wire from="(240,290)" to="(260,290)"/>
     <wire from="(560,370)" to="(630,370)"/>
-    <wire from="(420,370)" to="(560,370)"/>
     <wire from="(750,80)" to="(750,200)"/>
     <wire from="(850,140)" to="(850,260)"/>
     <wire from="(960,100)" to="(970,100)"/>
@@ -1339,13 +1344,13 @@ end TCL_Generic;&#13;
     <wire from="(560,710)" to="(610,710)"/>
     <wire from="(800,710)" to="(800,720)"/>
     <wire from="(880,230)" to="(880,240)"/>
-    <wire from="(420,330)" to="(470,330)"/>
     <wire from="(940,120)" to="(940,190)"/>
     <wire from="(1230,330)" to="(1230,420)"/>
     <wire from="(910,330)" to="(970,330)"/>
     <wire from="(10,350)" to="(10,680)"/>
     <wire from="(890,110)" to="(890,180)"/>
     <wire from="(1440,30)" to="(1440,310)"/>
+    <wire from="(440,370)" to="(560,370)"/>
     <wire from="(940,280)" to="(940,630)"/>
     <wire from="(790,180)" to="(890,180)"/>
     <wire from="(630,340)" to="(630,370)"/>
@@ -1354,14 +1359,15 @@ end TCL_Generic;&#13;
     <wire from="(780,810)" to="(1210,810)"/>
     <wire from="(910,90)" to="(930,90)"/>
     <wire from="(940,280)" to="(960,280)"/>
-    <wire from="(420,310)" to="(450,310)"/>
     <wire from="(1230,420)" to="(1240,420)"/>
+    <wire from="(440,330)" to="(470,330)"/>
     <wire from="(590,650)" to="(610,650)"/>
     <wire from="(490,440)" to="(970,440)"/>
     <wire from="(790,800)" to="(1200,800)"/>
     <wire from="(590,650)" to="(590,750)"/>
     <wire from="(1030,440)" to="(1060,440)"/>
     <wire from="(780,200)" to="(780,300)"/>
+    <wire from="(440,310)" to="(450,310)"/>
     <wire from="(490,240)" to="(500,240)"/>
     <wire from="(250,440)" to="(260,440)"/>
     <wire from="(1450,420)" to="(1450,840)"/>
@@ -1404,16 +1410,16 @@ ADDIU $t2, $zero, 4400 # testing addiu with positive immediate. result: t2 &lt;-
 ADDU $t1, $t0, $t2 # testing addu. result: t1 &lt;- 3900
 SUBU $t1, $t0, $t2 # testing subu. result: t1 &lt;- -4900
 ANDI $t3, $t2, 8 # testing andi. result: t3 &lt;- 0
-ORI $t4, $t2, 6 # testing ori. result: t4 &lt;- 2580
-XORI $t5, $t2, 4 # testing xori. result: t5 &lt;- 2584
+ORI $t4, $t2, 6 # testing ori. result: t4 &lt;- 4406
+XORI $t5, $t2, 4 # testing xori. result: t5 &lt;- 4404
 SLTI $t6, $t2, -10 # testing slti with t2 &gt; -10. result: t6 &lt;- 0
 SLTI $t6, $t2, 4402 # testing slti with t2 &lt; 4402. result: t6 &lt;- 1
 SLTIU $t7, $t2, 3 # testing slti with t2 &gt; 3. result: t7 &lt;- 0
 SLTIU $t7, $t2, 4401 # testing slti with t2 &lt; 4401. result: t7 &lt;- 1 
 AND $t3, $t2, $t1 # testing and. result: t3 &lt;- 10
-OR $t4, $t3, $t1 # testing or. result: t4 &lt;- 10
-XOR $t5, $t4, $t3 # testing xor. result: t5 &lt;- 0
-NOR $t6, $t2, $t5 # testing nor. result: t6 &lt;- -4401
+OR $t4, $t3, $t1 # testing or, ex/mem forwarding. result: t4 &lt;- -4900
+XOR $t5, $t4, $t3 # testing xor, ex/mem and mem/wb forwarding. result: t5 &lt;- -4916
+NOR $t6, $t2, $t5 # testing nor, mem/wb forwarding. result: t6 &lt;- -4401
 SLT $t7, $t2, $t1 # testing slt with t2 &gt; t1. result: t7 &lt;- 0 
 SLT $t7, $t1, $t2 # testing slt with t1 &lt; t2. result: t7 &lt;- 1
 SLTU $t3, $t2, $t1 # testing sltu with t2 &gt; t1. result: t3 &lt;- 0
@@ -1426,14 +1432,17 @@ SLL $t3, $t2, 5 # testing sll. result: t3 &lt;- 160
 SRL $t4, $t2, 6 # testing srl. result: t4 &lt;- 68
 SRA $t5, $t2, 7 # testing sra. result: t5 &lt;- 0
 ADDIU $t3, $zero, 10 # result:  t3 &lt;- 10
+ADDIU $t4, $zero, -10 # result:  t4 &lt;- -10
 SLLV $t6, $t2, $t3 # testing sllv. result: t6 &lt;- 10240
 SRLV $t7, $t2, $t3 # testing srlv. result: t7 &lt;- 4
-SRAV $t3, $t2, $t3 # testing srav. result: t3 &lt;- 44
+SRAV $t3, $t2, $t3 # testing srav with positive value. result: t3 &lt;- 4
+SRAV $t3, $t4, $t3 # testing srav with negative value. result: t3 &lt;- 
 loop: LUI $t4, 8019 # testing lui, creating loop for future tests. result: t4 &lt;- 4204265472
 J loop # testing jump to loop. result: none
 JR $t5 # testing jr. result: none
 JAL loop # testing jal to loop. result: none
 JALR $t6 # testing jalr. result: none
+ADDIU $t3, $zero, 10 # result:  t3 &lt;- 10
 ADDIU $t4, $zero, 10 # result: t4 &lt;- 10
 BEQ $t6, $t7, 2424 # testing beq with condition not met. result: none
 BEQ $t3, $t4, 2452 # testing beq with condition met. result: none
@@ -1458,14 +1467,21 @@ SB $t6, 4($t7) # testing sb. result: none
     </comp>
     <comp lib="4" loc="(260,370)" name="Register">
       <a name="width" val="32"/>
+      <a name="label" val="PCplus4"/>
     </comp>
-    <comp loc="(740,630)" name="equalandwrite"/>
+    <comp loc="(740,630)" name="equalandwrite">
+      <a name="label" val="memwb_forwardA"/>
+    </comp>
     <comp lib="2" loc="(960,100)" name="Multiplexer">
       <a name="width" val="32"/>
       <a name="enable" val="false"/>
     </comp>
-    <comp loc="(740,730)" name="equalandwrite"/>
-    <comp loc="(920,630)" name="equalandwrite"/>
+    <comp loc="(740,730)" name="equalandwrite">
+      <a name="label" val="memwb_forwardB"/>
+    </comp>
+    <comp loc="(920,630)" name="equalandwrite">
+      <a name="label" val="exmem_forwardA"/>
+    </comp>
     <comp lib="10" loc="(660,250)" name="RegisterFile">
       <a name="trigger" val="falling"/>
     </comp>
@@ -1483,44 +1499,58 @@ SB $t6, 4($t7) # testing sb. result: none
     </comp>
     <comp lib="4" loc="(970,410)" name="Register">
       <a name="width" val="6"/>
+      <a name="label" val="Ctrl"/>
     </comp>
     <comp lib="4" loc="(1240,520)" name="Register">
       <a name="width" val="5"/>
+      <a name="label" val="Addr2"/>
     </comp>
     <comp loc="(1200,310)" name="Execute"/>
     <comp lib="4" loc="(1370,520)" name="Register">
       <a name="width" val="5"/>
+      <a name="label" val="Addr3"/>
     </comp>
     <comp lib="4" loc="(1240,280)" name="Register">
       <a name="width" val="32"/>
+      <a name="label" val="D1"/>
     </comp>
     <comp lib="4" loc="(970,300)" name="Register">
       <a name="width" val="32"/>
+      <a name="label" val="Imm"/>
     </comp>
     <comp lib="4" loc="(1370,280)" name="Register">
       <a name="width" val="32"/>
+      <a name="label" val="D2"/>
     </comp>
     <comp lib="4" loc="(970,520)" name="Register">
       <a name="width" val="5"/>
+      <a name="label" val="Addr1"/>
     </comp>
     <comp lib="4" loc="(970,70)" name="Register">
       <a name="width" val="32"/>
+      <a name="label" val="A"/>
     </comp>
     <comp lib="4" loc="(970,190)" name="Register">
       <a name="width" val="32"/>
+      <a name="label" val="B"/>
     </comp>
     <comp lib="4" loc="(1240,390)" name="Register">
       <a name="width" val="1"/>
+      <a name="label" val="Write1"/>
     </comp>
     <comp lib="4" loc="(1370,390)" name="Register">
       <a name="width" val="1"/>
+      <a name="label" val="Write2"/>
     </comp>
-    <comp loc="(930,720)" name="equalandwrite"/>
+    <comp loc="(930,720)" name="equalandwrite">
+      <a name="label" val="exmem_forwardB"/>
+    </comp>
     <comp lib="0" loc="(20,10)" name="Clock"/>
-    <comp loc="(420,290)" name="Decode"/>
     <comp lib="4" loc="(260,260)" name="Register">
       <a name="width" val="32"/>
+      <a name="label" val="Inst"/>
     </comp>
+    <comp loc="(440,290)" name="Decode"/>
   </circuit>
   <circuit name="Execute">
     <a name="circuit" val="Execute"/>
@@ -1996,9 +2026,11 @@ SB $t6, 4($t7) # testing sb. result: none
     </comp>
     <comp lib="0" loc="(360,540)" name="Pin">
       <a name="width" val="5"/>
+      <a name="label" val="Addr1"/>
     </comp>
     <comp lib="0" loc="(360,580)" name="Pin">
       <a name="width" val="5"/>
+      <a name="label" val="Addr2"/>
     </comp>
     <comp lib="1" loc="(500,530)" name="NOR Gate">
       <a name="inputs" val="5"/>
